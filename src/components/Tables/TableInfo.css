@@ -10,13 +10,13 @@
 }
 
 .tableinfo{
-    height: 50vh;
+    height: 40vh;
     overflow-y: scroll;
     cursor: pointer;
 }
 
 .tableinfo > tr:nth-of-type(odd){
-    background-color: wheat;
+    background-color: lightblue;
 }
 
 .tableinfo td {

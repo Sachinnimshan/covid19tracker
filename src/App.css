@@ -13,7 +13,13 @@
 .app-left-container{
   display: flex;
   flex-direction: column;
-  width: 60%;
+  width: 65%;
+}
+
+.app-right-container{
+  display: flex;
+  flex-direction: column;
+  width: 35%;
 }
 
 .app-left-top{
