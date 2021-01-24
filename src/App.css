@@ -18,11 +18,45 @@
 
 .app-left-top{
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   margin: 1rem 2rem;
 }
 
 .app-left-top-country-dropdown{
   width: auto;
+}
 
+.app-left-middle{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.infobox-card-cases{
+  border-top: 10px solid orange;
+  padding: 4px;
+  border-radius: 0.5rem;
+}
+
+.infobox-card-recovered{
+  border-top: 10px solid lawngreen;
+  padding: 4px;
+  border-radius: 0.5rem;
+}
+
+.infobox-card-deaths{
+  border-top: 10px solid red;
+  padding: 4px;
+  border-radius: 0.5rem;
+}
+
+.tableinfo-card{
+  margin: 1rem;
+  border-top: 5px solid lime;
+}
+
+.linegraph-card{
+  margin: 1rem;
+  border-top: 5px solid orange;
 }
