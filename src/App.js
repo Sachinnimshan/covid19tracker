@@ -5,6 +5,7 @@ import InfoBox from './components/InfoBox/InfoBox';
 import TableInfo from './components/Tables/TableInfo';
 import {SortData} from './utils';
 import LineGraph from './components/Graphs/LineGraph';
+import MapView from './components/Map/MapView';
 
 function App() {
 
@@ -68,19 +69,22 @@ function App() {
 
         <div className='app-left-middle'>
           <div className='infobox-card-cases'>
-          <InfoBox Title='Corona Virus Cases'
+          <InfoBox 
+          Title='Corona Virus Cases'
           Cases={countryInfo.todayCases} 
           Total={countryInfo.cases}/>
           </div>
 
           <div className='infobox-card-recovered'>
-          <InfoBox Title='Recovered' 
+          <InfoBox 
+          Title='Recovered' 
           Cases={countryInfo.todayRecovered} 
           Total={countryInfo.recovered}/>
           </div>
 
           <div className='infobox-card-deaths'>
-          <InfoBox Title='Deaths'
+          <InfoBox 
+           Title='Deaths'
            Cases={countryInfo.todayDeaths} 
            Total={countryInfo.deaths}/>
           </div>
@@ -88,7 +92,7 @@ function App() {
         </div>
 
         <div className='app-left-bottom'>
-          
+          <MapView/>
         </div>
 
       </div>

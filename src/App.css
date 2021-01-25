@@ -69,4 +69,5 @@
 .linegraph-card{
   margin: 1rem;
   border-top: 5px solid orange;
+  cursor: pointer;
 }
