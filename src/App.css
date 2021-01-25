@@ -8,6 +8,7 @@
 .main-app-container{
   display: flex;
   justify-content: space-between;
+  margin: 0.5rem 0.5rem;
 }
 
 .app-left-container{
@@ -43,18 +44,21 @@
   border-top: 10px solid orange;
   padding: 4px;
   border-radius: 0.5rem;
+  background-color: #EAEDED;
 }
 
 .infobox-card-recovered{
   border-top: 10px solid lawngreen;
   padding: 4px;
   border-radius: 0.5rem;
+  background-color: #EAEDED;
 }
 
 .infobox-card-deaths{
   border-top: 10px solid red;
   padding: 4px;
   border-radius: 0.5rem;
+  background-color: #EAEDED;
 }
 
 .tableinfo-card{

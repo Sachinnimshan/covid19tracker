@@ -55,7 +55,7 @@ function App() {
     <div className="main-app-container">
       <div className='app-left-container'>
         <div className='app-left-top'>
-          <div><h1>COVID 19 TRACKER</h1></div>
+          <div><h2>COVID 19 TRACKER</h2></div>
           <div><FormControl className='app-left-top-country-dropdown'>
             <Select variant='outlined' onChange={oncountrychange} value={country}>
               <MenuItem value='worldwide'>WorldWide</MenuItem>
